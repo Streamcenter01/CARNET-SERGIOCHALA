@@ -144,7 +144,7 @@
         }
 
         .carnet-header img.logo {
-            max-width: 65px;
+            max-width: 50px;
             height: auto;
             margin-bottom: 4px;
         }
@@ -293,8 +293,8 @@
         }
 
         .qr-code-lg {
-            width: 95px;
-            height: 95px;
+            width: 80px;
+            height: 80px;
             background: #fff;
             padding: 0.1px;
             border-radius: 8px;
@@ -370,46 +370,21 @@
 
         .star-icon {
             font-size: 22px;
+            color: #4a4a4a;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .star-icon.active, .star-icon:hover {
             color: #ffd700;
             text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
-            cursor: pointer;
-            transition: transform 0.2s ease;
         }
 
-        .star-icon:hover {
-            transform: scale(1.2);
-        }
-
-        .auth-notice {
+        .voto-mensaje {
             font-size: 0.62rem;
-            color: var(--texto-secundario);
+            color: var(--verde-verificado);
             margin-top: 2px;
-        }
-
-        .btn-auth-google {
-            background: #ffffff;
-            color: #000000;
-            border: none;
-            padding: 6px 12px;
-            border-radius: 12px;
-            font-size: 0.68rem;
-            font-weight: 800;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            cursor: pointer;
-            margin-top: 6px;
-            box-shadow: 0 2px 8px rgba(255,255,255,0.2);
-        }
-
-        .user-info-bar {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-            font-size: 0.65rem;
-            color: var(--texto-secundario);
-            margin-top: 4px;
+            font-weight: 700;
         }
 
         .reverso-info {
@@ -664,7 +639,7 @@
                 <div class="perforacion-lanyard"></div>
 
                 <div class="carnet-header">
-                    <img src="img/(8)-Photoroom.png" alt="SegurApp Logo" class="logo">
+                    <img src="https://scontent.fnva2-1.fna.fbcdn.net/v/t39.30808-6/756341896_122112284661318735_3783461112117562916_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s2000x2000&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHiIyYM0PMIFRje-sD2qF4k6_A_YNFTiP_r8D9g0VOI_yOrwYMe6j-2s2IP87L8QFx0tWwIlGunFfrr2_1kzfyT&_nc_ohc=z32eauIiNRsQ7kNvwGmIa3a&_nc_oc=AdoDh2BGScEtPr4uWNGYlRnETflUnrRB-bBlVXz1X7ebKxYE8lnoS66Ev0c3dMdOjGk&_nc_zt=23&_nc_ht=scontent.fnva2-1.fna&_nc_gid=1_cGxj_WdL9FoY58BltkLQ&_nc_ss=7b2a8&oh=00_AQBaf0xDI7EHwx1v8PMJ3PCgomixUYVlXcBqQiuR0xhCMA&oe=6A6C2A56" alt="SegurApp Logo" class="logo">
                     <div class="sub-brand">RAPIDOS - confiables - seguros.</div>
                     <span class="badge-rol">Conductor Oficial</span>
                 </div>
@@ -697,13 +672,12 @@
                             <span class="dato-label">Vehículo Registrado</span>
                             <span class="dato-val">TVS Raider 125 (Negra)</span>
                         </div>
-                        
                     </div>
                 </div>
 
                 <div class="carnet-footer">
                     <div class="qr-code-lg">
-                        <img src="img/logoapp.png" alt="Código QR WhatsApp">
+                        <img src="https://scontent.fnva2-1.fna.fbcdn.net/v/t39.30808-6/755034332_122112287511318735_7435910357093586244_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s2000x2000&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFLXq-mTDuAbT2TzD4RkkujK1rW33KMN4UrWtbfcow3hejgK6xihIdXUR9cckXWQHXmBPvY2Wi4SgSmSNr37X-8&_nc_ohc=Nuy7rJNVr0cQ7kNvwEX6Zhz&_nc_oc=AdomkncrYtKFFryK9GnOY0pqtDb0VNZF7jLW1OW-wWNPRYENlKXtTFQddg-5uWQWvPU&_nc_zt=23&_nc_ht=scontent.fnva2-1.fna&_nc_gid=Ia18-y2C0O8DOiaah2hqzA&_nc_ss=7b2a8&oh=00_AQD2Jy-kPoIwF-lFdu5Jg0cal1V0dKOhEUsSB4iBMLUMKw&oe=6A6C221D" alt="Código QR WhatsApp">
                     </div>
                     <div class="info-qr">
                         <div class="id-codigo">ID: SEG-2026-890</div>
@@ -720,7 +694,7 @@
                 <div class="perforacion-lanyard"></div>
                 
                 <div class="carnet-header">
-                    <img src="img/(8)-Photoroom.png" alt="SegurApp Logo" class="logo" style="max-width: 170px;">
+                    <img src="https://scontent.fnva2-1.fna.fbcdn.net/v/t39.30808-6/756341896_122112284661318735_3783461112117562916_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s2000x2000&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHiIyYM0PMIFRje-sD2qF4k6_A_YNFTiP_r8D9g0VOI_yOrwYMe6j-2s2IP87L8QFx0tWwIlGunFfrr2_1kzfyT&_nc_ohc=z32eauIiNRsQ7kNvwGmIa3a&_nc_oc=AdoDh2BGScEtPr4uWNGYlRnETflUnrRB-bBlVXz1X7ebKxYE8lnoS66Ev0c3dMdOjGk&_nc_zt=23&_nc_ht=scontent.fnva2-1.fna&_nc_gid=1_cGxj_WdL9FoY58BltkLQ&_nc_ss=7b2a8&oh=00_AQBaf0xDI7EHwx1v8PMJ3PCgomixUYVlXcBqQiuR0xhCMA&oe=6A6C2A56" alt="SegurApp Logo" class="logo" style="max-width: 170px;">
                     <div class="sub-brand">Información y Valoración</div>
                 </div>
 
@@ -730,26 +704,20 @@
                     <div class="rating-box-reverso" onclick="event.stopPropagation()">
                         <div class="rating-title">Calificación del Conductor</div>
                         <div class="rating-promedio">
-                            <span id="promedioTexto">4.5</span> 
+                            <span id="promedioTexto">4.8</span> 
                             <span class="material-icons" style="font-size:18px; color:#ffd700;">star</span> 
                             <span id="totalVotosTexto" style="color:var(--texto-secundario); font-size:0.65rem;">(80 valoraciones)</span>
                         </div>
 
                         <div class="stars-container" id="starsContainer">
-                            <span class="material-icons star-icon">star</span>
-                            <span class="material-icons star-icon">star</span>
-                            <span class="material-icons star-icon">star</span>
-                            <span class="material-icons star-icon">star</span>
-                            <span class="material-icons star-icon">star_half</span>
+                            <span class="material-icons star-icon" data-value="1" onclick="calificar(1)">star</span>
+                            <span class="material-icons star-icon" data-value="2" onclick="calificar(2)">star</span>
+                            <span class="material-icons star-icon" data-value="3" onclick="calificar(3)">star</span>
+                            <span class="material-icons star-icon" data-value="4" onclick="calificar(4)">star</span>
+                            <span class="material-icons star-icon" data-value="5" onclick="calificar(5)">star</span>
                         </div>
 
-                        <div id="authSection">
-                            <span class="auth-notice" id="authNotice">Debes iniciar sesión para valorar</span>
-                            <button class="btn-auth-google" id="btnLogin" onclick="loginGoogle()">
-                                <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" width="12" height="12">
-                                Iniciar sesión con Google
-                            </button>
-                        </div>
+                        <div id="votoMensaje" class="voto-mensaje"></div>
                     </div>
 
                     <div class="datos-grid" style="margin-bottom: 8px; text-align: center;">
@@ -822,86 +790,72 @@
         </div>
     </div>
 
-    <!-- SCRIPT FIREBASE CONECTADO A FIRESTORE -->
-    <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
-        import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
-        import { getFirestore } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+    <!-- SCRIPT DE CALIFICACIÓN POR DISPOSITIVO Y CONTADOR -->
+    <script>
+        const STORAGE_KEY_VOTO = 'segurapp_user_voted';
+        const STORAGE_KEY_START = 'segurapp_start_time';
+        const BASE_VALORACIONES = 80;
+        const HORAS_POR_INCREMENTO = 2.5;
 
-        const firebaseConfig = {
-            apiKey: "AIzaSyDNrDgA9J5Sov8OzwnyQag8fNPO3d29FDw",
-            authDomain: "disney-6faaa.firebaseapp.com",
-            projectId: "disney-6faaa",
-            storageBucket: "disney-6faaa.firebasestorage.app",
-            messagingSenderId: "1070957949843",
-            appId: "1:1070957949843:web:640996c2cbb85fe2b36e66",
-            measurementId: "G-CZLFQW6K32"
-        };
-
-        const app = initializeApp(firebaseConfig);
-        const auth = getAuth(app);
-        const db = getFirestore(app);
-        const provider = new GoogleAuthProvider();
-
-        let currentUser = null;
-
-        window.loginGoogle = async () => {
-            try {
-                await signInWithPopup(auth, provider);
-            } catch (error) {
-                console.error("Error al iniciar sesión:", error);
-            }
-        };
-
-        window.logoutGoogle = async () => {
-            await signOut(auth);
-        };
-
-        onAuthStateChanged(auth, async (user) => {
-            currentUser = user;
-            const authSection = document.getElementById('authSection');
-            
-            if (user) {
-                authSection.innerHTML = `
-                    <div class="user-info-bar">
-                        <span>Hola, <strong>${user.displayName.split(' ')[0]}</strong></span>
-                        <button style="background:none; border:none; color:#ff4444; font-size:0.6rem; cursor:pointer;" onclick="logoutGoogle()">Cerrar sesión</button>
-                    </div>
-                `;
-            } else {
-                authSection.innerHTML = `
-                    <span class="auth-notice">Debes iniciar sesión para valorar</span>
-                    <button class="btn-auth-google" onclick="loginGoogle()">
-                        <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" width="12" height="12">
-                        Iniciar sesión con Google
-                    </button>
-                `;
-            }
-        });
-
-        function calcularValoracionesProgresivas() {
-            const baseValoraciones = 80;
-            const horasPorIncremento = 2.5;
-            
-            let inicioTiempo = localStorage.getItem('segurapp_start_time');
+        function obtenerTotalValoraciones() {
+            let inicioTiempo = localStorage.getItem(STORAGE_KEY_START);
             if (!inicioTiempo) {
                 inicioTiempo = Date.now();
-                localStorage.setItem('segurapp_start_time', inicioTiempo);
+                localStorage.setItem(STORAGE_KEY_START, inicioTiempo);
             }
 
             const msTranscurridos = Date.now() - parseInt(inicioTiempo);
             const horasTranscurridas = msTranscurridos / (1000 * 60 * 60);
-            const incrementos = Math.floor(horasTranscurridas / horasPorIncremento);
+            const incrementos = Math.floor(horasTranscurridas / HORAS_POR_INCREMENTO);
             
-            const totalActual = baseValoraciones + incrementos;
-            document.getElementById('totalVotosTexto').innerText = `(${totalActual} valoraciones)`;
+            const votoLocal = localStorage.getItem(STORAGE_KEY_VOTO) ? 1 : 0;
+            return BASE_VALORACIONES + incrementos + votoLocal;
         }
 
-        calcularValoracionesProgresivas();
-        setInterval(calcularValoracionesProgresivas, 60000);
-    </script>
+        function actualizarUI() {
+            const total = obtenerTotalValoraciones();
+            document.getElementById('totalVotosTexto').innerText = `(${total} valoraciones)`;
 
-    <script>
+            const miVoto = localStorage.getItem(STORAGE_KEY_VOTO);
+            const stars = document.querySelectorAll('.star-icon');
+            const msgBox = document.getElementById('votoMensaje');
+
+            if (miVoto) {
+                const rating = parseInt(miVoto);
+                stars.forEach((s, idx) => {
+                    if (idx < rating) {
+                        s.classList.add('active');
+                    } else {
+                        s.classList.remove('active');
+                    }
+                    s.style.cursor = 'default';
+                });
+                msgBox.innerText = `✓ ¡Gracias! Calificaste con ${rating} estrella${rating > 1 ? 's' : ''}`;
+            } else {
+                stars.forEach(s => {
+                    s.classList.remove('active');
+                    s.style.cursor = 'pointer';
+                });
+                msgBox.innerText = 'Haz clic en las estrellas para calificar';
+            }
+        }
+
+        function calificar(estrellas) {
+            const miVoto = localStorage.getItem(STORAGE_KEY_VOTO);
+            if (miVoto) return; // Ya votó en este dispositivo
+
+            localStorage.setItem(STORAGE_KEY_VOTO, estrellas);
+            
+            // Ajustar promedio estético ligeramente
+            const nuevoPromedio = (4.8 + (estrellas - 4.8) * 0.05).toFixed(1);
+            document.getElementById('promedioTexto').innerText = nuevoPromedio;
+
+            actualizarUI();
+        }
+
+        actualizarUI();
+        setInterval(actualizarUI, 60000);
+
         let ubicacionUsuario = null;
 
         function voltearCarnet() {
@@ -909,7 +863,6 @@
             escena.classList.toggle('flipped');
         }
 
-        // CONTROL DEL MODAL QUIÉNES SOMOS
         function abrirQuienesSomos() {
             document.getElementById('modalQuienesSomos').classList.add('active');
         }
@@ -918,7 +871,6 @@
             document.getElementById('modalQuienesSomos').classList.remove('active');
         }
 
-        // SOLICITAR PERMISOS DE UBICACIÓN INMEDIATAMENTE AL CARGAR LA PÁGINA
         window.addEventListener('DOMContentLoaded', () => {
             pedirPermisoUbicacionInicial();
         });
@@ -944,12 +896,10 @@
             }
         }
 
-        // AL PRESIONAR EL BOTÓN SOLICITAR RECORRIDO
         function enviarUbicacionPorWhatsApp() {
             const telefono = "573189882787";
             const btn = document.getElementById('btnSolicitarRecorrido');
 
-            // Si la ubicación ya fue obtenida al entrar a la página
             if (ubicacionUsuario) {
                 const mapaLink = `https://www.google.com/maps?q=${ubicacionUsuario.lat},${ubicacionUsuario.lng}`;
                 const mensaje = encodeURIComponent(
@@ -958,7 +908,6 @@
                 );
                 window.open(`https://wa.me/${telefono}?text=${mensaje}`, '_blank');
             } else {
-                // Si aún no la tenía (ej. el usuario tardó en aceptar el mensaje o recién lo interactúa)
                 btn.style.opacity = "0.7";
                 btn.innerHTML = `<span class="material-icons" style="animation: pulseHint 1s infinite;">my_location</span> Obteniendo ubicación...`;
 

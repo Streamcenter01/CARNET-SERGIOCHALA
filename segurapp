@@ -55,6 +55,51 @@
             z-index: -1;
         }
 
+        /* --- INDICADOR DE GIRAR ULTRA VISIBLE --- */
+        .hint-girar {
+            font-size: 0.8rem;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            font-weight: 900;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 16px;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, rgba(22, 25, 32, 0.95) 0%, rgba(10, 12, 16, 0.95) 100%);
+            border: 2px solid var(--dorado-brillante);
+            border-radius: 30px;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.4), inset 0 0 10px rgba(255, 215, 0, 0.1);
+            animation: pulseHint 1.8s infinite ease-in-out;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .hint-girar .icono-girar {
+            font-size: 20px;
+            color: var(--dorado-brillante);
+            animation: rotarIcono 2.5s infinite linear;
+        }
+
+        @keyframes pulseHint {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 12px rgba(255, 215, 0, 0.4), 0 0 20px rgba(212, 175, 55, 0.2);
+            }
+            50% {
+                transform: scale(1.05);
+                box-shadow: 0 0 22px rgba(255, 215, 0, 0.8), 0 0 35px rgba(212, 175, 55, 0.5);
+                border-color: #ffe600;
+            }
+        }
+
+        @keyframes rotarIcono {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
         /* --- CONTENEDOR FLIP 3D --- */
         .escena-carnet {
             width: 100%;
@@ -394,26 +439,6 @@
             text-align: center;
         }
 
-        .hint-girar {
-            font-size: 0.65rem;
-            color: var(--dorado-brillante);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: 800;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 4px;
-            margin-bottom: 12px;
-            animation: pulseHint 2s infinite ease-in-out;
-            cursor: pointer;
-        }
-
-        @keyframes pulseHint {
-            0%, 100% { opacity: 0.6; }
-            50% { opacity: 1; filter: drop-shadow(0 0 5px var(--dorado-brillante)); }
-        }
-
         .acciones-bar {
             width: 100%;
             max-width: 380px;
@@ -625,8 +650,9 @@
 </head>
 <body>
 
+    <!-- BOTÓN / PÍLDORA VISIBLE PARA VOLTEAR -->
     <div class="hint-girar" onclick="voltearCarnet()">
-        <span class="material-icons" style="font-size: 16px;">autorenew</span>
+        <span class="material-icons icono-girar">autorenew</span>
         Toca el carnet para voltear
     </div>
 
@@ -748,15 +774,13 @@
             <button class="btn-accion guardar-contacto" onclick="guardarContactoVCF()">
                 <span class="material-icons">person_add</span> Guardar Contacto
             </button>
-
-            <button class="btn-accion" onclick="voltearCarnet()">
-                <span class="material-icons">flip</span> Voltear Carnet
-            </button>
-        </div>
-
-        <button class="btn-accion quienes-somos" onclick="abrirQuienesSomos()">
+<button class="btn-accion quienes-somos" onclick="abrirQuienesSomos()">
             <span class="material-icons">info</span> ¿Quiénes Somos?
         </button>
+            
+        </div>
+
+       
     </div>
 
     <!-- MODAL QUIÉNES SOMOS -->
@@ -842,11 +866,10 @@
 
         function calificar(estrellas) {
             const miVoto = localStorage.getItem(STORAGE_KEY_VOTO);
-            if (miVoto) return; // Ya votó en este dispositivo
+            if (miVoto) return;
 
             localStorage.setItem(STORAGE_KEY_VOTO, estrellas);
             
-            // Ajustar promedio estético ligeramente
             const nuevoPromedio = (4.8 + (estrellas - 4.8) * 0.05).toFixed(1);
             document.getElementById('promedioTexto').innerText = nuevoPromedio;
 

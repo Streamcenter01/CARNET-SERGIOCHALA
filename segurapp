@@ -684,7 +684,7 @@
                     <div class="datos-grid">
                         <div class="dato-item full-width">
                             <span class="dato-label">Rol Asignado</span>
-                            <span class="dato-val destacado">Administrador / Gerente de Operaciones</span>
+                            <span class="dato-val destacado">Gerente de Operaciones</span>
                         </div>
                         <div class="dato-item">
                             <span class="dato-label">C.C. / Licencia</span>

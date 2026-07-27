@@ -703,7 +703,7 @@
 
                 <div class="carnet-footer">
                     <div class="qr-code-lg">
-                        <img src="https://scontent.fnva2-1.fna.fbcdn.net/v/t39.30808-6/757563678_122112373905318735_4099987177954124814_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s2000x2000&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGUs1dE4NOifaX1KCiMpKnsDrfjqJq4uMEOt-Oomri4wbkysMr92Po7rBgE88JI-MMeaAyL_BYTlxYCRZrKvCK2&_nc_ohc=inKPbZEwhooQ7kNvwHUJcYC&_nc_oc=AdpbyeiSq6geiSxPcqJP1_9ZP1q2QPD03YKhXJQSSSOEqJY98PWowFuxnqlejVHL6BM&_nc_zt=23&_nc_ht=scontent.fnva2-1.fna&_nc_gid=P9M2JLMiukCbnwM643mDvg&_nc_ss=7b2a8&oh=00_AQCG7Q4ngX68Hke9C2ILIxeWJIsooZfANgE6figB-TIcWA&oe=6A6D7905" alt="Código QR WhatsApp">
+                        <img src="https://scontent.fnva2-1.fna.fbcdn.net/v/t39.30808-6/758778895_122112374925318735_6236119563779800171_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s2000x2000&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeElK_q1GAFmfAfB6zkhgu94HBrm0ZO6id0cGubRk7qJ3bYR6bDE_UeequmKNPeJo01YkOV9iL3N24VhwGlfru5S&_nc_ohc=I6DnjV5_J3AQ7kNvwGEi6Be&_nc_oc=AdriY4AhDT367eR3uodSqdcHmDYrCmLbp3zP7m-92aouzSegHLVu3eQMsBN3XkTPemM&_nc_zt=23&_nc_ht=scontent.fnva2-1.fna&_nc_gid=pny4_kBEGfFrtRaRyJLbCQ&_nc_ss=7b2a8&oh=00_AQBHGLdqorUZKf27qJ8zpYdu2FaKojxeBQoEx7m28QVeSQ&oe=6A6D5F12" alt="Código QR WhatsApp">
                     </div>
                     <div class="info-qr">
                         <div class="id-codigo">ID: SEG-2026-890</div>
